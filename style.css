@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* .header{
+    background-color: white;
+    background-image: url(/asset/pngtree-tea-restaurant-menu-background-material-image_159445.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flexbox; 
+    justify-content: space-between;
+    padding: 40px 50px 
+    
+    
+    
+    
+} */
+
+.logo-section img{
+    display:inline-flexbox;
+    text-align: center;
+    justify-content: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.brand{
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.brand p{
+    font-size: 15px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    color: white;
+}
+
+.navigation ul a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navigation ul a:hover{
+    border-bottom: 1px solid white;
+}
+
+h3{
+    /* color: #ff982c; */
+    margin: 50px 0px 30px 0px ;
+}
+
+.description{
+    color: gray;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.menu ul{
+    border: 1px solid #2f952d;
+    margin: 10px;
+    padding: 10px 30px ;
+    color: #2f952d;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menu ul:hover{
+    background-color: #2f956d;
+    color: white;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.items div{
+    width: 23%;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.items div img{
+    width: 90%;
+    margin-bottom: 20px;
+
+}
+
+.items div h2{
+    color: #1a6692;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.items div p{
+    color: pink;
+    line-height: 25px;
+    margin-bottom: 20px;
+
+}
+
+.items div span{
+    color: #2f956d;
+    font-size: 20px;
+}
+
+.details{
+    display: flex;
+    margin: 60px 0px;
+}
+
+.details dib img{
+    margin: 0px 47px;
+}
+
+.details div h2{
+    color: #1a6692;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.details div o{
+    color: gray;
+    line-height: 35px;
+    margin-bottom: 45px;
+}
+
+.details div a{
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.details div a:hover{
+    background-color: gray;
+    color: white;
+}
+
+.footer{
+    text-align:initial;
+    position: absolute;
+    color: #626364;
+    font-size: 17px ;
+    margin-top: 40px;
+    padding: 25px;
+}
